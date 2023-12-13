@@ -40,7 +40,6 @@ public class Knapsack {
 			arr.add(new values(a,b,c));
 		}
 		
-		 
 		Collections.sort(arr, Collections.reverseOrder(new Sortbyratio())); 
 		
 //		for (int i = 0; i < arr.size(); i++) 
@@ -58,9 +57,6 @@ public class Knapsack {
 				break;
 			}
 		}
-		
-		System.out.println(maxprofit);
+			System.out.println(maxprofit);
 	}
-
-	
 }
